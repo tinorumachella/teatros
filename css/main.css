@@ -25,14 +25,14 @@ img {
 }
 
 .logo-menu {
-	background: #00171f;
+	background: #000;
 	padding: 30px;
 }
 
 .logo-menu input#search{
 	width: 300px;
 	height: 50px;
-	background: #00171f;
+	background: #000;
 	border: none;
 	font-size: 10pt;
 	color: #262626;
@@ -139,7 +139,7 @@ img {
 
 .main .thumb img {
 	width: 100%;
-	margin-top: 15px;
+	margin-top: 0px;
 	border-radius: 5px;
 	vertical-align: top;
 
@@ -155,9 +155,15 @@ img {
   -webkit-filter: blur(1px);
 }
 
+/* =======
+	MODAL
+
+   ======= */
+
+   
 /* FOOTER */
 footer {
-	background: #00171f;
+	background: #000;
 	color:#fff;
 	padding: 40px 0;
 	border-top: 5px solid rgba(75, 75, 75, 0.5);
@@ -170,7 +176,7 @@ footer .nav a {
 	padding: 20px;
 	color:#fff;
 	text-decoration: none;
-    background:#00171f;
+    background:#000;
     transition:all 0.3s ease;
 }
 
