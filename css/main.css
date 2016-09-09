@@ -22,15 +22,15 @@ ul {
 	 CLEARFIX
 	----------  */
 
-.group:before,
-.group:after {
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table;
 }
-.group:after {
+.clearfix:after {
   clear: both;
 }
-.group {
+.clearfix {
   zoom: 1;
 }
 
