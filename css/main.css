@@ -378,8 +378,8 @@ ul {
 }
 
 .modal .content img{
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
 	
 	position: relative;
 	width: 100%;
@@ -401,6 +401,44 @@ ul {
   top: 0;
   width: 42%;
   text-decoration: none;
+}
+
+.modal .content .modal-header {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #000; 
+}
+
+.modal .content .modal-info {
+	padding-left: 5%;
+	width: 70%;
+	float: left;
+	color: #000;
+	font-weight: 100;
+}
+
+.modal .content .modal-aside {
+	width: 10%;
+	background: #53a7ea;
+	margin-right: 5%;
+	margin-top: 20px;
+	padding: 8px;
+	float: right;
+	border-radius: 2px;
+	text-align: center;
+
+  -webkit-transition: all 1s .1s ease;
+}
+
+.modal .content .modal-aside a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.modal .content .modal-aside:hover {
+	background: #4285bb;
 }
 
 /*	----------
