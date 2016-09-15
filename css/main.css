@@ -220,16 +220,12 @@ ul {
   border-radius: 3px;
   line-height: 1;
   text-decoration: none;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  -webkit-transition: opacity 0.5s linear;
+  -webkit-transition: all 0.5s linear;
 }
 
-.submenu a:visited,
+.submenu a:target,
 .submenu a:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transition: opacity 0.5s linear;
+	background: #4276aa;
 }
 
 /*  ------------------
