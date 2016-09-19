@@ -223,7 +223,7 @@ ul {
   -webkit-transition: all 0.5s linear;
 }
 
-.submenu a:target,
+.submenu a:link,
 .submenu a:hover {
 	background: #4276aa;
 }
