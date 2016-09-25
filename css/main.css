@@ -442,40 +442,43 @@ ul {
 		----------  */
 
 footer {
-	width: 100%;
 	background: #000;
-	color:#fff;
-	padding: 15px 0;
-	border-top: 1px solid #ccccff;
-
 }
 
 footer .footer {
+	display: block;
+	width: 80%;
+	max-width: 1120px;
+	color:#fff;
+	margin: 0 auto;
+	padding: 15px 0;
+	border-top: 1px solid #ccccff;
+}
+
+footer .inicio {
 	float: left;
-	margin-left: 18%;
 
 }
 
-footer .footer a {
+footer .inicio a {
 	text-align: center;
 	width: 150px;
 	display: inline-block;
 	padding: 15px;
 	color:#fff;
 	text-decoration: none;
-    background:#000;
-    transition:all 0.3s ease;
+  background:#000;
+  transition:all 0.3s ease;
 }
 
-footer .footer a:hover {
+footer .inicio a:hover {
 	color: #53a7ea;
 }
 
 footer .logo {
 	width: 350px;
-	float: right;
-	margin-right: 21%;
 	background: #53a7ea;
+	float: right;
 	color:#000;
 	padding: 15px;
 	font-weight: 200;
