@@ -1,0 +1,296 @@
+/* -------------
+	MEDIA QUERY
+   ------------- */
+
+ @media only screen and (max-width: 1526px) {
+
+	.submenu{
+		width: 80%;
+		margin-bottom: 30px;
+  }
+  
+  .banner{
+  	width: 80%;
+  }
+
+	.banner h1 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 1.4em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #fff;
+		margin-top: 24%;
+	}
+
+	.banner p {
+		font-size: 13px;
+		font-weight: 100;
+	}
+
+
+	.thumb {
+		position: relative;
+	  float: left;
+	  width: 32%;
+	  margin-right: 2%;
+	  margin-bottom: 2%;
+	  border-radius: 2px;
+	}
+
+	.thumb:nth-child(3n) {
+	  margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+
+	.submenu{
+		margin-bottom: 30px;
+		width: 100%;
+  }
+
+  .submenu nav {
+		width: 100%;
+		margin: -0 auto;
+		display: inline-block;
+	}
+
+  .banner{
+  	width: 100%;
+  }
+	
+	.banner h1 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 1.2em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #fff;
+		margin-top: 24%;
+	}
+
+	.banner p {
+		font-size: 12px;
+		font-weight: 100;
+	}
+
+	.banner img {
+		margin-top: 0px;
+	}
+
+	.thumb {
+		position: relative;
+	  float: left;
+	  width: 32%;
+	  margin-right: 2%;
+	  margin-bottom: 2%;
+	  border-radius: 2px;
+	}
+
+	.thumb:nth-child(3n) {
+	  margin-right: 0;
+	}
+	
+	.modal .content {
+	  width:  80%;
+	  margin-left: -40%;
+	}
+
+	.modal .content .modal-aside {
+		width: 20%;
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+
+	.submenu {
+		width: 100%;
+		padding: 0px;
+	}
+
+	.submenu ul li {
+		margin-left: 10%;
+		margin-bottom: 3px;
+		width: 80%;
+	}
+
+	.thumbnails {
+		width: 80%;
+		margin: 60px auto;
+	}
+
+	.thumb {
+		position: relative;
+	  float: left;
+	  width: 48%;
+	  margin-left: 2%;
+	  margin-right: 0;
+	  margin-bottom: 2%;
+	  border-radius: 2px;
+	}
+
+	footer .footer {
+		display: block;
+		width: 80%;
+		padding: 15px 0;
+		border-top: 1px solid #ccccff;
+	}
+
+	footer .inicio a {
+		width: auto;
+		padding: 15px;
+	}
+
+	footer .inicio a:hover {
+		color: #53a7ea;
+	}
+
+	footer .logo {
+		width: auto;
+		padding: 15px;
+		font-weight: 100;
+		border-radius: 0 30px 0 30px;
+		font-size: 1.2em;
+	}
+
+	.modal .content {
+	  width:  90%;
+	  margin-left: -45%;
+	}
+
+	.modal .content .modal-aside {
+		width: 20%;
+		float: right;
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+
+	.brand {
+		width: 100%;
+		margin-left: -10px;
+	}
+
+	.brand img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.search {
+		margin-top: 10px;
+  	width: 100%;
+	}
+
+	.search input {
+		display block;
+  	margin: 40px auto;
+	}	
+
+	.search:before {
+	  display: none;
+	}
+
+	.banner-destacado {
+		width: 100%;
+	  position: static;
+	}
+
+	.thumbnails {
+		width: 80%;
+		margin: 60px auto;
+	}
+
+	.thumb {
+		position: relative;
+	  float: left;
+	  width: 100%;
+	  margin-left: 0;
+	  margin-right: 0;
+	  margin-bottom: 2%;
+	  border-radius: 2px;
+	}
+
+	.button {
+		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin: 0% 0%;
+		background: #000;
+		border: 1px solid white;
+		padding: 3%;
+		width: 100px;
+		text-align: center;
+		border-radius: 2px;
+		text-decoration: none;
+	}
+
+	.banner h1 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 1.2em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #fff;
+		margin-top: 24%;
+	}
+
+	.banner .banner-info {
+		text-align: center;
+	  margin-top:-100px;
+	  width: 100%;
+	  padding-bottom: 20px;
+	}
+
+	.banner .banner-image {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.modal .content h1{
+		font-size: 1.2em;	
+		text-align: left;
+	}
+
+	.modal .content {
+	  width:  100%;
+	  margin-left: -50%;
+	  font-size: 14px;
+	}
+
+	.modal .content .modal-aside {
+		width: 30%;
+		float: right;
+		margin-left: 2%;
+	}
+
+	footer .footer {
+		display: block;
+		width: 80%;
+		padding: 15px 0;
+		border-top: 1px solid #ccccff;
+	}
+
+	footer .inicio a {
+		width: auto;
+		padding: 15px;
+	}
+
+	footer .inicio a:hover {
+		color: #53a7ea;
+	}
+
+	footer .logo {
+		width: auto;
+		padding: 10px;
+		font-weight: 100;
+		border-radius: 0 30px 0 30px;
+		font-size: 1em;
+	}
+}
+
+/*  ------------
+			KEYFRAMES
+		------------  */
