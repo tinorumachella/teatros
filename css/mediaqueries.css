@@ -91,6 +91,10 @@
 	.thumb:nth-child(3n) {
 	  margin-right: 0;
 	}
+
+	.modal {
+	  left: -99999px;
+	}
 	
 	.modal .content {
 	  width:  80%;
@@ -129,6 +133,10 @@
 	  margin-right: 0;
 	  margin-bottom: 2%;
 	  border-radius: 2px;
+	}
+
+	.modal {
+	  left: -99999px;
 	}
 
 	footer .footer {
@@ -264,6 +272,10 @@
 		width: 30%;
 		float: right;
 		margin-left: 2%;
+	}
+
+	.modal {
+	  top: -99999px;
 	}
 
 	footer .footer {

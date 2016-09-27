@@ -220,16 +220,24 @@ ul {
   border-radius: 3px;
   line-height: 1;
   text-decoration: none;
-  -webkit-transition: all 0.5s linear;
+  -webkit-transition: background 0.5s linear;
 }
 
 .submenu a:link,
 .submenu a:hover {
-	background: #4276aa;
+	background: #345e88;
+}
+
+.pagina-todos .submenu li:nth-child(1) a {
+  background: #345e88;
 }
 
 .pagina-principales .submenu li:nth-child(2) a {
-  background: #000;
+  background: #345e88;
+}
+
+.pagina-independientes .submenu li:nth-child(3) a {
+  background: #345e88;
 }
 
 /*  ------------------
@@ -377,8 +385,8 @@ ul {
 }
 
 .modal .content img{
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 
 	position: relative;
 	width: 100%;
@@ -388,6 +396,7 @@ ul {
 	pointer-events: auto;
 	opacity: 1;
   left: 0;
+  top: 0;
   background: rgba(0, 0, 0, .8);
 }
 
@@ -438,7 +447,7 @@ ul {
 }
 
 .modal .content .modal-aside:hover {
-	background: #4285bb;
+	background: #345e88;
 }
 
 /*	----------
